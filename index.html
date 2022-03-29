@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hey, what's up?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <a id="index"></a>
+    <!-- Header -->
+    <header class="header">
+
+        <!-- NAV SECTION -->
+        <nav class="navbar">
+            <div class=container-hamburger">
+                <ul class="hamburger">
+                    <li class="bar"></li>
+                    <li class="bar"></li>
+                    <li class="bar"></li>
+                </ul>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="#about">Index</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Index</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="title">Tanya Dmitrieva, <span class="subtitle">Front-end developer</span></h1>
+
+    </header>
+
+
+    <!-- About -->
+    <a id="about"></a>
+
+    <section class="about">
+
+        <div class="bio">
+            <h2 class="about-title">About Me</h2>
+            <img class="img-profile" src="https://blenderartists.org/uploads/default/original/4X/8/d/c/8dc89bd130c6d8b13f1f1c1cd9fbffaa922f1570.jpeg" alt="Cute frog :з">
+            <p class="description">Hello. I'm Tanya. I need to fill in some information, but it's boring. This story is over.</p>
+
+            <h2 class="skills-title">skills</h2>
+            <div class="logos-skills">
+                <div class="HTML-logo">
+                    <p class="left">HTML</p>
+                    <div class="right" style="background-color:#72a5d3">
+                        <div style="width:80%;background-color:#b1d3e3;text-align:center">80%</div>
+                    </div>
+                </div>
+                <div class="CSS-logo">
+                    <p class="left">CSS</p>
+                    <div class="right" style="background-color:#72a5d3">
+                        <div style="width:80%;background-color:#b1d3e3;text-align:center">80%</div>
+                    </div>
+                </div>
+                <div class="JS-logo">
+                    <p class="left">JavaScript</p>
+                    <div class="right" style="background-color:#72a5d3">
+                        <div style="width:60%;background-color:#b1d3e3;text-align:center">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Portfolio -->
+    <a id="portfolio"></a>
+    <section class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-images">
+
+        <div class="portfolio-divs">
+            <button class="open-window" id="openCaseConverter">Open Project</button>
+            <img class="img-portfolio" src="https://ucarecdn.com/de0d5343-f8de-434b-a0b7-8c9e9cf1d9aa/" alt="Case Converter">
+            <p>Case Converter, simple tool developed with HTML, Css and Javascript.</p>
+        </div>
+        <div class="portfolio-divs">
+            <button class="open-window" id="openFlashCards">Open Project</button>
+            <img class="img-portfolio" src="https://ucarecdn.com/170970bc-f84f-4631-b53f-75357f3f7099/" alt="FlashCards">
+            <p>Stylized page with flashcards developed with HTML, Css and Javascript.</p>
+        </div>
+        <div class="portfolio-divs">
+            <button class="open-window" id="openPiano">Open Project</button>
+            <img class="img-portfolio" src="https://ucarecdn.com/f7a62af7-f136-470c-8aa6-06813e85342d/" alt="Virtual Piano">
+            <p>Play Piano whit this  tool developed with HTML, Css and Javascript.</p>
+        </div>
+        <div class="portfolio-divs">
+            <button class="open-window" id="openToDoList">Open Project</button>
+            <img  class="img-portfolio" src="https://ucarecdn.com/b99f1127-3379-474e-bc5c-d693b051dbba/" alt="To Do Lisy">
+            <p>A simple To Do List with LocalStorage.</p>
+        </div>
+    </div>
+</section>
+    <section>
+        <div id="popupCaseConverter" class="window">
+            <div class="window-content">
+                <h1>Case Converter</h1>
+                <h3>You can see the project at the following link: <a href="https:\\www.mgallende.com\caseconverter\index.html">Case Converter</a></h3>
+                <p>I created a small web page with a case converter.
+                    In this development I learned the basics of HTML, CSS and JS.</p>
+                <button class="button" id="closeCaseConverter">Close</button>
+            </div>
+        </div>
+
+        <div id="popupFlashCards" class="window">
+            <div class="window-content">
+                <h1>FlashCards</h1>
+                <h3>You can see the project at the following link: <a href="https:\\www.mgallende.com\flashCards\index.html">FlashCards</a></h3>
+                <p>I created a small web page with flip cards. In this development I learned the basics of HTML and CSS.</p>
+                <button class="button" id="closeFlashCards">Close</button>
+            </div>
+        </div>
+
+        <div id="popupPiano" class="window">
+
+            <div class="window-content">
+                <h1>Virtual Piano</h1>
+                <h3>You can see the project at the following link: <a href="https:\\www.mgallende.com\virtualPiano\index.html">Virtual Piano</a></h3>
+                <p>I created a small web page with a Little piano to play. In this development I learned the basics of HTML, CSS and JS.</p>
+                <button class="button" id="closePiano">Close</button>
+            </div>
+        </div>
+
+
+        <div id="popupToDoList" class="window" >
+            <div class="window-content">
+                <h1>To Do List</h1>
+                <h3>You can see the project at the following link: <a href="https:\\www.mgallende.com\todolist\index.html">To Do List</a></h3>
+                <p>I created a small To Do List web page with LocalStorage. In this development I learned the basics of HTML, CSS and JS.</p>
+                <button class="button" id="closeToDoList">Close</button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Contacts -->
+    <a id="contacts"></a>
+    <section class="contacts">
+        <img class="img-profile" src="https://blenderartists.org/uploads/default/original/4X/8/d/c/8dc89bd130c6d8b13f1f1c1cd9fbffaa922f1570.jpeg" alt="Cute frog :з">
+        <div class="data-contact">
+            <h2 class="contact-title">Contact me</h2>
+            <div class="social-logos">
+                <a href="https://codepen.io/taniadmitrieva0"><img class="social" src="https://www.flaticon.com/free-icon/codepen_2111501?term=codepen&page=1&position=5&page=1&position=5&related_id=2111501&origin=search" alt="Logo Codepen"></a>
+                <a href="https://github.com/taniadmitrieva0"><img class="social" src="https://www.flaticon.com/free-icon/github_1051377?term=github&page=1&position=11&page=1&position=11&related_id=1051377&origin=search" alt="Logo Github"></a>
+                <a href="https://t.me/taniadmitrieva0"><img class="social" src="https://www.flaticon.com/premium-icon/telegram_3670044?term=telegram&page=1&position=5&page=1&position=5&related_id=3670044&origin=search" alt="Logo Telegram"></a>
+            </div>
+            <h4 class="contact-mail"><a href="mailto:">taniadmitrieva0@gmail.com</a></h4>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    <h3>Tanya Dmitrieva</h3>
+    <h4>2022</h4>
+    </footer>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
